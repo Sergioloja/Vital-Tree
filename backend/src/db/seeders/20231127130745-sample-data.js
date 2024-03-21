@@ -15,19 +15,9 @@ const Organizations = db.organizations;
 
 const AlertsData = [
   {
-    alert_time: new Date('2023-10-27'),
+    alert_time: new Date('2024-01-07'),
 
-    description: 'Good relations with the Wookiees, I have.',
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    alert_time: new Date('2024-02-25'),
-
-    description: 'Hmm. In the end, cowards are those who follow the dark side.',
+    description: 'Your weapons, you will not need them.',
 
     // type code here for "relation_one" field
 
@@ -35,10 +25,10 @@ const AlertsData = [
   },
 
   {
-    alert_time: new Date('2023-09-06'),
+    alert_time: new Date('2023-09-24'),
 
     description:
-      'Much to learn you still have my old padawan. ... This is just the beginning!',
+      'Through the Force, things you will see. Other places. The future - the past. Old friends long gone.',
 
     // type code here for "relation_one" field
 
@@ -46,7 +36,7 @@ const AlertsData = [
   },
 
   {
-    alert_time: new Date('2023-11-19'),
+    alert_time: new Date('2023-06-17'),
 
     description:
       'Ready are you? What know you of ready? For eight hundred years have I trained Jedi. My own counsel will I keep on who is to be trained. A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away - to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things. You are reckless.',
@@ -59,25 +49,11 @@ const AlertsData = [
 
 const CorporateSponsorsData = [
   {
-    company_name: 'Reminds me of my old girlfriend Olga Goodntight',
+    company_name: 'That goddamn Datamate',
 
-    industry: 'That damn diabetes',
+    industry: 'That goddamn Datamate',
 
-    csr_focus: "How 'bout them Cowboys",
-
-    // type code here for "images" field
-
-    // type code here for "relation_many" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    company_name: 'Let me tell ya',
-
-    industry: 'That damn gimble',
-
-    csr_focus: "How 'bout them Cowboys",
+    csr_focus: 'That goddamn Datamate',
 
     // type code here for "images" field
 
@@ -87,11 +63,11 @@ const CorporateSponsorsData = [
   },
 
   {
-    company_name: "I'm washing my hands of it",
+    company_name: "How 'bout them Cowboys",
 
-    industry: 'Come on now',
+    industry: "How 'bout them Cowboys",
 
-    csr_focus: "C'mon Naomi",
+    csr_focus: 'Like a red-headed stepchild',
 
     // type code here for "images" field
 
@@ -101,11 +77,11 @@ const CorporateSponsorsData = [
   },
 
   {
-    company_name: 'Reminds me of my old girlfriend Olga Goodntight',
+    company_name: 'Standby',
 
-    industry: "C'mon Naomi",
+    industry: "That's messed up",
 
-    csr_focus: 'Let me tell ya',
+    csr_focus: 'Texas!',
 
     // type code here for "images" field
 
@@ -117,9 +93,19 @@ const CorporateSponsorsData = [
 
 const EducationalContentsData = [
   {
-    title: 'Texas!',
+    title: "That Barbala couldn't fly his way out of a wet paper bag",
 
-    content: 'Do. Or do not. There is no try.',
+    content: 'Around the survivors a perimeter create.',
+
+    // type code here for "images" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    title: 'Reminds me of my old girlfriend Olga Goodntight',
+
+    content: 'Always pass on what you have learned.',
 
     // type code here for "images" field
 
@@ -129,28 +115,8 @@ const EducationalContentsData = [
   {
     title: 'That goddamn Datamate',
 
-    content: 'Feel the force!',
-
-    // type code here for "images" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    title: "That's messed up",
-
-    content: 'Your weapons, you will not need them.',
-
-    // type code here for "images" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    title: "Goin' hog huntin'",
-
     content:
-      'Through the Force, things you will see. Other places. The future - the past. Old friends long gone.',
+      'Once you start down the dark path, forever will it dominate your destiny, consume you it will.',
 
     // type code here for "images" field
 
@@ -160,23 +126,15 @@ const EducationalContentsData = [
 
 const RegionsData = [
   {
-    name: 'Theodosius Dobzhansky',
+    name: 'Pierre Simon de Laplace',
 
-    coordinates: 'Yup',
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    name: 'August Kekule',
-
-    coordinates: 'Reminds me of my old girlfriend Olga Goodntight',
+    coordinates: "That's messed up",
 
     // type code here for "relation_one" field
   },
 
   {
-    name: 'Konrad Lorenz',
+    name: 'Noam Chomsky',
 
     coordinates: 'So I was walking Oscar',
 
@@ -184,9 +142,9 @@ const RegionsData = [
   },
 
   {
-    name: 'Neils Bohr',
+    name: 'Tycho Brahe',
 
-    coordinates: 'My buddy Harlen',
+    coordinates: 'That damn Bill Stull',
 
     // type code here for "relation_one" field
   },
@@ -194,54 +152,18 @@ const RegionsData = [
 
 const RestorationProjectsData = [
   {
-    project_name: 'My buddy Harlen',
+    project_name: 'That damn gimble',
 
-    funding_goal: 29.52,
+    funding_goal: 15.83,
 
-    current_funding: 42.67,
+    current_funding: 80.65,
 
-    start_date: new Date('2023-04-25'),
+    start_date: new Date('2024-02-05'),
 
-    end_date: new Date('2023-05-19'),
-
-    description: 'Already know you that which you need.',
-
-    // type code here for "images" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    project_name: 'I want my 5$ back',
-
-    funding_goal: 70.25,
-
-    current_funding: 85.49,
-
-    start_date: new Date('2023-12-01'),
-
-    end_date: new Date('2024-01-08'),
-
-    description: 'You will find only what you bring in.',
-
-    // type code here for "images" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    project_name: 'That damn diabetes',
-
-    funding_goal: 43.42,
-
-    current_funding: 85.58,
-
-    start_date: new Date('2023-07-01'),
-
-    end_date: new Date('2023-05-29'),
+    end_date: new Date('2023-09-27'),
 
     description:
-      'Soon will I rest, yes, forever sleep. Earned it I have. Twilight is upon me, soon night must fall.',
+      'Pain, suffering, death I feel. Something terrible has happened. Young Skywalker is in pain. Terrible pain',
 
     // type code here for "images" field
 
@@ -249,18 +171,36 @@ const RestorationProjectsData = [
   },
 
   {
-    project_name: "Y'all never listen to me",
+    project_name: 'Texas!',
 
-    funding_goal: 86.59,
+    funding_goal: 22.13,
 
-    current_funding: 56.45,
+    current_funding: 64.34,
 
-    start_date: new Date('2023-10-28'),
+    start_date: new Date('2024-02-14'),
 
-    end_date: new Date('2023-11-07'),
+    end_date: new Date('2023-06-17'),
 
     description:
-      'Always two there are, no more, no less. A master and an apprentice.',
+      'Strong is Vader. Mind what you have learned. Save you it can.',
+
+    // type code here for "images" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    project_name: 'Contact the tower',
+
+    funding_goal: 92.59,
+
+    current_funding: 58.82,
+
+    start_date: new Date('2023-06-18'),
+
+    end_date: new Date('2023-11-03'),
+
+    description: 'Hmm. In the end, cowards are those who follow the dark side.',
 
     // type code here for "images" field
 
@@ -270,19 +210,15 @@ const RestorationProjectsData = [
 
 const OrganizationsData = [
   {
-    name: 'Marcello Malpighi',
+    name: 'James Watson',
   },
 
   {
-    name: 'Christiaan Huygens',
+    name: 'Emil Fischer',
   },
 
   {
     name: 'Franz Boas',
-  },
-
-  {
-    name: 'August Kekule',
   },
 ];
 
@@ -321,17 +257,6 @@ async function associateUserWithOrganization() {
   if (User2?.setOrganization) {
     await User2.setOrganization(relatedOrganization2);
   }
-
-  const relatedOrganization3 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const User3 = await Users.findOne({
-    order: [['id', 'ASC']],
-    offset: 3,
-  });
-  if (User3?.setOrganization) {
-    await User3.setOrganization(relatedOrganization3);
-  }
 }
 
 async function associateAlertWithRegion() {
@@ -367,17 +292,6 @@ async function associateAlertWithRegion() {
   if (Alert2?.setRegion) {
     await Alert2.setRegion(relatedRegion2);
   }
-
-  const relatedRegion3 = await Regions.findOne({
-    offset: Math.floor(Math.random() * (await Regions.count())),
-  });
-  const Alert3 = await Alerts.findOne({
-    order: [['id', 'ASC']],
-    offset: 3,
-  });
-  if (Alert3?.setRegion) {
-    await Alert3.setRegion(relatedRegion3);
-  }
 }
 
 async function associateAlertWithOrganization() {
@@ -412,17 +326,6 @@ async function associateAlertWithOrganization() {
   });
   if (Alert2?.setOrganization) {
     await Alert2.setOrganization(relatedOrganization2);
-  }
-
-  const relatedOrganization3 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const Alert3 = await Alerts.findOne({
-    order: [['id', 'ASC']],
-    offset: 3,
-  });
-  if (Alert3?.setOrganization) {
-    await Alert3.setOrganization(relatedOrganization3);
   }
 }
 
@@ -461,17 +364,6 @@ async function associateCorporateSponsorWithOrganization() {
   if (CorporateSponsor2?.setOrganization) {
     await CorporateSponsor2.setOrganization(relatedOrganization2);
   }
-
-  const relatedOrganization3 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const CorporateSponsor3 = await CorporateSponsors.findOne({
-    order: [['id', 'ASC']],
-    offset: 3,
-  });
-  if (CorporateSponsor3?.setOrganization) {
-    await CorporateSponsor3.setOrganization(relatedOrganization3);
-  }
 }
 
 async function associateEducationalContentWithOrganization() {
@@ -506,17 +398,6 @@ async function associateEducationalContentWithOrganization() {
   });
   if (EducationalContent2?.setOrganization) {
     await EducationalContent2.setOrganization(relatedOrganization2);
-  }
-
-  const relatedOrganization3 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const EducationalContent3 = await EducationalContents.findOne({
-    order: [['id', 'ASC']],
-    offset: 3,
-  });
-  if (EducationalContent3?.setOrganization) {
-    await EducationalContent3.setOrganization(relatedOrganization3);
   }
 }
 
@@ -553,17 +434,6 @@ async function associateRegionWithOrganization() {
   if (Region2?.setOrganization) {
     await Region2.setOrganization(relatedOrganization2);
   }
-
-  const relatedOrganization3 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const Region3 = await Regions.findOne({
-    order: [['id', 'ASC']],
-    offset: 3,
-  });
-  if (Region3?.setOrganization) {
-    await Region3.setOrganization(relatedOrganization3);
-  }
 }
 
 async function associateRestorationProjectWithOrganization() {
@@ -598,17 +468,6 @@ async function associateRestorationProjectWithOrganization() {
   });
   if (RestorationProject2?.setOrganization) {
     await RestorationProject2.setOrganization(relatedOrganization2);
-  }
-
-  const relatedOrganization3 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const RestorationProject3 = await RestorationProjects.findOne({
-    order: [['id', 'ASC']],
-    offset: 3,
-  });
-  if (RestorationProject3?.setOrganization) {
-    await RestorationProject3.setOrganization(relatedOrganization3);
   }
 }
 
