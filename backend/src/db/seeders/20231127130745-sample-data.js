@@ -15,10 +15,30 @@ const Organizations = db.organizations;
 
 const AlertsData = [
   {
-    alert_time: new Date('2023-10-28'),
+    alert_time: new Date('2023-10-27'),
+
+    description: 'Good relations with the Wookiees, I have.',
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    alert_time: new Date('2024-02-25'),
+
+    description: 'Hmm. In the end, cowards are those who follow the dark side.',
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    alert_time: new Date('2023-09-06'),
 
     description:
-      'Through the Force, things you will see. Other places. The future - the past. Old friends long gone.',
+      'Much to learn you still have my old padawan. ... This is just the beginning!',
 
     // type code here for "relation_one" field
 
@@ -26,40 +46,10 @@ const AlertsData = [
   },
 
   {
-    alert_time: new Date('2023-09-27'),
-
-    description: 'That is why you fail.',
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    alert_time: new Date('2024-03-13'),
-
-    description: 'That is why you fail.',
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    alert_time: new Date('2024-02-02'),
-
-    description: 'Not if anything to say about it I have',
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    alert_time: new Date('2023-05-03'),
+    alert_time: new Date('2023-11-19'),
 
     description:
-      'Like fire across the galaxy the Clone Wars spread. In league with the wicked Count Dooku, more and more planets slip. Against this threat, upon the Jedi Knights falls the duty to lead the newly formed army of the Republic. And as the heat of war grows, so, to, grows the prowess of one most gifted student of the Force.',
+      'Ready are you? What know you of ready? For eight hundred years have I trained Jedi. My own counsel will I keep on who is to be trained. A Jedi must have the deepest commitment, the most serious mind. This one a long time have I watched. All his life has he looked away - to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh. Excitement. Heh. A Jedi craves not these things. You are reckless.',
 
     // type code here for "relation_one" field
 
@@ -69,9 +59,9 @@ const AlertsData = [
 
 const CorporateSponsorsData = [
   {
-    company_name: 'Like a red-headed stepchild',
+    company_name: 'Reminds me of my old girlfriend Olga Goodntight',
 
-    industry: 'Come on now',
+    industry: 'That damn diabetes',
 
     csr_focus: "How 'bout them Cowboys",
 
@@ -83,49 +73,7 @@ const CorporateSponsorsData = [
   },
 
   {
-    company_name: 'I want my damn cart back',
-
-    industry: "I'm washing my hands of it",
-
-    csr_focus: 'Might be DQ time',
-
-    // type code here for "images" field
-
-    // type code here for "relation_many" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    company_name: 'I want my damn cart back',
-
-    industry: 'Standby',
-
-    csr_focus: 'I tell you what',
-
-    // type code here for "images" field
-
-    // type code here for "relation_many" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    company_name: 'Come on now',
-
-    industry: "How 'bout them Cowboys",
-
-    csr_focus: "It's around here somewhere",
-
-    // type code here for "images" field
-
-    // type code here for "relation_many" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    company_name: "Goin' hog huntin'",
+    company_name: 'Let me tell ya',
 
     industry: 'That damn gimble',
 
@@ -137,14 +85,41 @@ const CorporateSponsorsData = [
 
     // type code here for "relation_one" field
   },
+
+  {
+    company_name: "I'm washing my hands of it",
+
+    industry: 'Come on now',
+
+    csr_focus: "C'mon Naomi",
+
+    // type code here for "images" field
+
+    // type code here for "relation_many" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    company_name: 'Reminds me of my old girlfriend Olga Goodntight',
+
+    industry: "C'mon Naomi",
+
+    csr_focus: 'Let me tell ya',
+
+    // type code here for "images" field
+
+    // type code here for "relation_many" field
+
+    // type code here for "relation_one" field
+  },
 ];
 
 const EducationalContentsData = [
   {
-    title: 'Standby',
+    title: 'Texas!',
 
-    content:
-      'Pain, suffering, death I feel. Something terrible has happened. Young Skywalker is in pain. Terrible pain',
+    content: 'Do. Or do not. There is no try.',
 
     // type code here for "images" field
 
@@ -152,40 +127,30 @@ const EducationalContentsData = [
   },
 
   {
-    title: 'Reminds me of my old girlfriend Olga Goodntight',
+    title: 'That goddamn Datamate',
+
+    content: 'Feel the force!',
+
+    // type code here for "images" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    title: "That's messed up",
+
+    content: 'Your weapons, you will not need them.',
+
+    // type code here for "images" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    title: "Goin' hog huntin'",
 
     content:
       'Through the Force, things you will see. Other places. The future - the past. Old friends long gone.',
-
-    // type code here for "images" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    title: 'My buddy Harlen',
-
-    content: 'Strong is Vader. Mind what you have learned. Save you it can.',
-
-    // type code here for "images" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    title: 'Contact the tower',
-
-    content: 'You will find only what you bring in.',
-
-    // type code here for "images" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    title: 'Turd gone wrong',
-
-    content: 'At an end your rule is, and not short enough it was!',
 
     // type code here for "images" field
 
@@ -195,7 +160,15 @@ const EducationalContentsData = [
 
 const RegionsData = [
   {
-    name: 'Francis Galton',
+    name: 'Theodosius Dobzhansky',
+
+    coordinates: 'Yup',
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    name: 'August Kekule',
 
     coordinates: 'Reminds me of my old girlfriend Olga Goodntight',
 
@@ -203,33 +176,17 @@ const RegionsData = [
   },
 
   {
-    name: 'William Herschel',
+    name: 'Konrad Lorenz',
 
-    coordinates: 'Let me tell ya',
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    name: 'Emil Kraepelin',
-
-    coordinates: 'I got that scurvy',
+    coordinates: 'So I was walking Oscar',
 
     // type code here for "relation_one" field
   },
 
   {
-    name: 'Gertrude Belle Elion',
+    name: 'Neils Bohr',
 
-    coordinates: 'My boss gonna fire me',
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    name: 'Frederick Sanger',
-
-    coordinates: "I'm washing my hands of it",
+    coordinates: 'My buddy Harlen',
 
     // type code here for "relation_one" field
   },
@@ -237,35 +194,17 @@ const RegionsData = [
 
 const RestorationProjectsData = [
   {
-    project_name: 'That damn Bill Stull',
+    project_name: 'My buddy Harlen',
 
-    funding_goal: 26.13,
+    funding_goal: 29.52,
 
-    current_funding: 99.25,
+    current_funding: 42.67,
 
-    start_date: new Date('2023-11-04'),
+    start_date: new Date('2023-04-25'),
 
-    end_date: new Date('2024-01-14'),
+    end_date: new Date('2023-05-19'),
 
-    description: 'Reckless he is. Matters are worse.',
-
-    // type code here for "images" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    project_name: 'That goddamn Datamate',
-
-    funding_goal: 84.66,
-
-    current_funding: 37.95,
-
-    start_date: new Date('2023-11-24'),
-
-    end_date: new Date('2023-12-31'),
-
-    description: 'Mudhole? Slimy? My home this is!',
+    description: 'Already know you that which you need.',
 
     // type code here for "images" field
 
@@ -273,35 +212,17 @@ const RestorationProjectsData = [
   },
 
   {
-    project_name: "Goin' hog huntin'",
+    project_name: 'I want my 5$ back',
 
-    funding_goal: 97.94,
+    funding_goal: 70.25,
 
-    current_funding: 98.32,
+    current_funding: 85.49,
 
-    start_date: new Date('2023-06-21'),
+    start_date: new Date('2023-12-01'),
 
-    end_date: new Date('2023-08-01'),
+    end_date: new Date('2024-01-08'),
 
-    description: 'Your weapons, you will not need them.',
-
-    // type code here for "images" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    project_name: 'Might be DQ time',
-
-    funding_goal: 45.22,
-
-    current_funding: 95.81,
-
-    start_date: new Date('2023-05-01'),
-
-    end_date: new Date('2024-03-02'),
-
-    description: 'Good relations with the Wookiees, I have.',
+    description: 'You will find only what you bring in.',
 
     // type code here for "images" field
 
@@ -309,18 +230,37 @@ const RestorationProjectsData = [
   },
 
   {
-    project_name: "How 'bout them Cowboys",
+    project_name: 'That damn diabetes',
 
-    funding_goal: 71.96,
+    funding_goal: 43.42,
 
-    current_funding: 60.77,
+    current_funding: 85.58,
 
-    start_date: new Date('2023-08-07'),
+    start_date: new Date('2023-07-01'),
 
-    end_date: new Date('2023-03-25'),
+    end_date: new Date('2023-05-29'),
 
     description:
-      'Yes, a Jedi’s strength flows from the Force. But beware of the dark side. Anger, fear, aggression; the dark side of the Force are they. Easily they flow, quick to join you in a fight. If once you start down the dark path, forever will it dominate your destiny, consume you it will, as it did Obi-Wan’s apprentice.',
+      'Soon will I rest, yes, forever sleep. Earned it I have. Twilight is upon me, soon night must fall.',
+
+    // type code here for "images" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    project_name: "Y'all never listen to me",
+
+    funding_goal: 86.59,
+
+    current_funding: 56.45,
+
+    start_date: new Date('2023-10-28'),
+
+    end_date: new Date('2023-11-07'),
+
+    description:
+      'Always two there are, no more, no less. A master and an apprentice.',
 
     // type code here for "images" field
 
@@ -330,23 +270,19 @@ const RestorationProjectsData = [
 
 const OrganizationsData = [
   {
-    name: 'Anton van Leeuwenhoek',
+    name: 'Marcello Malpighi',
   },
 
   {
-    name: 'William Herschel',
+    name: 'Christiaan Huygens',
   },
 
   {
-    name: 'Edwin Hubble',
+    name: 'Franz Boas',
   },
 
   {
-    name: 'Edwin Hubble',
-  },
-
-  {
-    name: 'William Bayliss',
+    name: 'August Kekule',
   },
 ];
 
@@ -396,17 +332,6 @@ async function associateUserWithOrganization() {
   if (User3?.setOrganization) {
     await User3.setOrganization(relatedOrganization3);
   }
-
-  const relatedOrganization4 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const User4 = await Users.findOne({
-    order: [['id', 'ASC']],
-    offset: 4,
-  });
-  if (User4?.setOrganization) {
-    await User4.setOrganization(relatedOrganization4);
-  }
 }
 
 async function associateAlertWithRegion() {
@@ -453,17 +378,6 @@ async function associateAlertWithRegion() {
   if (Alert3?.setRegion) {
     await Alert3.setRegion(relatedRegion3);
   }
-
-  const relatedRegion4 = await Regions.findOne({
-    offset: Math.floor(Math.random() * (await Regions.count())),
-  });
-  const Alert4 = await Alerts.findOne({
-    order: [['id', 'ASC']],
-    offset: 4,
-  });
-  if (Alert4?.setRegion) {
-    await Alert4.setRegion(relatedRegion4);
-  }
 }
 
 async function associateAlertWithOrganization() {
@@ -509,17 +423,6 @@ async function associateAlertWithOrganization() {
   });
   if (Alert3?.setOrganization) {
     await Alert3.setOrganization(relatedOrganization3);
-  }
-
-  const relatedOrganization4 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const Alert4 = await Alerts.findOne({
-    order: [['id', 'ASC']],
-    offset: 4,
-  });
-  if (Alert4?.setOrganization) {
-    await Alert4.setOrganization(relatedOrganization4);
   }
 }
 
@@ -569,17 +472,6 @@ async function associateCorporateSponsorWithOrganization() {
   if (CorporateSponsor3?.setOrganization) {
     await CorporateSponsor3.setOrganization(relatedOrganization3);
   }
-
-  const relatedOrganization4 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const CorporateSponsor4 = await CorporateSponsors.findOne({
-    order: [['id', 'ASC']],
-    offset: 4,
-  });
-  if (CorporateSponsor4?.setOrganization) {
-    await CorporateSponsor4.setOrganization(relatedOrganization4);
-  }
 }
 
 async function associateEducationalContentWithOrganization() {
@@ -625,17 +517,6 @@ async function associateEducationalContentWithOrganization() {
   });
   if (EducationalContent3?.setOrganization) {
     await EducationalContent3.setOrganization(relatedOrganization3);
-  }
-
-  const relatedOrganization4 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const EducationalContent4 = await EducationalContents.findOne({
-    order: [['id', 'ASC']],
-    offset: 4,
-  });
-  if (EducationalContent4?.setOrganization) {
-    await EducationalContent4.setOrganization(relatedOrganization4);
   }
 }
 
@@ -683,17 +564,6 @@ async function associateRegionWithOrganization() {
   if (Region3?.setOrganization) {
     await Region3.setOrganization(relatedOrganization3);
   }
-
-  const relatedOrganization4 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const Region4 = await Regions.findOne({
-    order: [['id', 'ASC']],
-    offset: 4,
-  });
-  if (Region4?.setOrganization) {
-    await Region4.setOrganization(relatedOrganization4);
-  }
 }
 
 async function associateRestorationProjectWithOrganization() {
@@ -739,17 +609,6 @@ async function associateRestorationProjectWithOrganization() {
   });
   if (RestorationProject3?.setOrganization) {
     await RestorationProject3.setOrganization(relatedOrganization3);
-  }
-
-  const relatedOrganization4 = await Organizations.findOne({
-    offset: Math.floor(Math.random() * (await Organizations.count())),
-  });
-  const RestorationProject4 = await RestorationProjects.findOne({
-    order: [['id', 'ASC']],
-    offset: 4,
-  });
-  if (RestorationProject4?.setOrganization) {
-    await RestorationProject4.setOrganization(relatedOrganization4);
   }
 }
 
